@@ -1,0 +1,201 @@
+    /*Global Css*/
+
+. {
+    margin: 0;
+    padding: 0;
+}
+
+.global-section {
+    padding: 3rem;
+}
+
+.global-heading {
+    font-size: 44px;
+    text-align: center;
+}
+
+.global-head-p {
+    color: black;
+    text-align: center;
+}
+.button1 {
+    width: 194px;
+    height: 51px;
+    background-color: #020202e0;
+    color: #edd81d;
+    border-radius: 3rem;
+}
+
+
+
+  /*Frist section*/
+  .frist-section {
+    background-image: url(./img/b.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;    
+    padding: 10rem 0;
+    text-align: center;
+    
+}
+
+.frist-section p {
+    font-size: 2rem;
+    font-family: comic sans MS;
+    color: whitesmoke;
+}
+
+.frist-section h2 {
+    font-size: 4rem;
+    font-family: comic sans MS;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+
+
+      /*About me*/
+  .about-main-div{
+
+    display:flex;
+   justify-content: center;
+    text-align: center;
+    padding: 2rem 0;
+
+  }   
+.about-sub-div2{
+    width: 500px;
+
+  }
+.about-sub-div2 h2{
+    font-size: 33px;
+    
+}
+
+.about-sub-div2 p{
+color: #101010d1;
+margin: 15px 0;
+
+
+}
+
+/*This is servicec area*/
+ .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+ }
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+.grid-single-item h2{
+    margin: 15px 0;
+    }
+.coustom-icon-size{
+    font-size: 65px;
+}
+ /*This is testimonial section */
+
+.testimonial-p{
+    color: black;
+
+}
+/*contact section*/
+.contact-heading{
+    font-size: 55px;
+    text-align: center;
+}
+/*Form section*/    
+
+.from{
+margin-left: 35rem;
+}
+}
+form input{
+    width: 200px;
+
+}  
+from textarea{
+    width: 200px;
+}
+.submit-btn{
+    width: 150px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+
+}
+/*This is header section*/
+header{
+  
+    background-color:white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+
+}
+
+.main-manu ul li{
+
+    display: inline;
+    margin-right: 10px;
+}
+
+
+
+
+* {
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    -moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+body{
+  background:#ffffff;
+  padding:75px;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1{
+  color:#c0c0c0;
+  font-weight:100;
+}
+
+.btn{
+  color:#999;
+  background:   rgb(153, 204, 255);
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgb(204, 230, 255);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#1b1b1b;
+}
+
+.footer{
+  font-size:8px;
+  color:#fff;
+  clear:both;
+  display:block;
+  letter-spacing:5px;
+  border:1px solid #fff;
+  padding:5px;
+  text-decoration:none;
+  width:210px;
+  margin:auto;
+  margin-top:400px;
+}
